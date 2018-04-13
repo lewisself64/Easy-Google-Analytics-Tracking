@@ -1,0 +1,87 @@
+#main-content
+{
+	max-width:400px;
+}
+
+#google_analytics_enabled_content,
+#google_site_verification_enabled_content
+{
+	background-color:#eee;
+}
+
+.google-ids
+{
+	display:block;
+}
+
+.title
+{
+	font-weight:bold;
+	font-size:14px;
+	margin:0 0 1em 0;
+}
+
+.setting
+{
+	padding:1em;
+}
+
+.text-field-titles
+{
+	display:block;
+}
+
+.google-ids > input
+{
+	width:100%;
+}
+
+.checkbox-options
+{
+	display:block;
+	margin:1em 0 0 0;
+	padding:10px;
+	background-color:#ccc;
+}
+
+.checkbox-options > input[type=checkbox]
+{
+	float:right;
+	margin-top:0;
+}
+
+.checkbox-options > span
+{
+	margin:1em 5px 1em 0;
+	line-height:25px;
+}
+
+.radio-button-options
+{
+	margin:1em 0;
+}
+
+.script-placement-foot,
+.script-placement-head
+{
+	margin:0 5px 0 0;
+}
+
+p.submit
+{
+	margin:20px 0;
+	padding:0;
+}
+
+@media(min-width:400px)
+{
+	.checkbox-options > input[type=checkbox]
+	{
+		margin-top:5px;
+	}
+
+	.radio-button-options
+	{
+		float:none;
+	}
+}
